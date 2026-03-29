@@ -1,8 +1,13 @@
 import './App.css'
+import Nav from './components/Nav'
+import Content from './components/Content'
 
 export function App() {
 
   return (
-    <text className='Title'>Hello world!</text>
+    <view className="main">
+      <Content/>
+      <Nav/>
+    </view>
   )
 }
