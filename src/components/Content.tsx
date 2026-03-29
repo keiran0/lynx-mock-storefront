@@ -1,6 +1,6 @@
 
 export default function Content() {
     return <view>
-        <text>content</text>
+        <text className="text-lg">Hello world!</text>
     </view>
 }

@@ -5,7 +5,7 @@ import Content from './components/Content'
 export function App() {
 
   return (
-    <view className="main">
+    <view>
       <Content/>
       <Nav/>
     </view>
